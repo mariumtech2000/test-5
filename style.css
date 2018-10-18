@@ -1,0 +1,26 @@
+body{
+	background: #eceff4;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.row{
+	height: 500px;
+	width: 500px;
+}
+
+@media only screen and (max-width: 500px) {
+	.contain{
+		width: 600px;
+		text-align: center;
+	}
+	.main{
+		width: 100vh;
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+	.contain{
+		width: 700px;
+		text-align: center;
+	}
+}
